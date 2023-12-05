@@ -12,13 +12,13 @@ isLang.addEventListener('click', () => {
 	switch (true) {
 		case isLang.textContent == 'RU':
 			isLang.textContent = 'EN';
-			isTextContent[0].textContent = 'Ждать...';
+			isTextContent[0].textContent = 'Давайте играть!';
 			isRock.textContent = 'Камень';
 			isScissors.textContent = 'Ножницы';
 			isPaper.textContent = 'Бумага';
 			break;
 			case isLang.textContent == 'EN':
-			isTextContent[0].textContent = 'Wait...';
+			isTextContent[0].textContent = "let's Play!";
 			isRock.textContent = 'Rock';
 			isScissors.textContent = 'Scissors';
 			isPaper.textContent = 'Paper';
